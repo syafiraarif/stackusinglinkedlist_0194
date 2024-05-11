@@ -14,10 +14,12 @@ public:
     }
 };
 
-class stact
+class stack
 {
 private:
     Node* top;
+public:
+
 };
 int main()
 {
