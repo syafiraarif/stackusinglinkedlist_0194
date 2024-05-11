@@ -38,14 +38,25 @@ int push(int value)
 
 void pop() 
 {
-    if (isEmpety()) 
+    if (isEmpty()) 
     {
-        cout << "Stack is empety." << endl;
+        cout << "Stack is empty." << endl;
     }
     cout << "Poped value: " << top->data << endl;
     top = top->next;
 }
 
+void peek() 
+{
+    if (top == NULL) 
+    {
+        cout << "List is Empty." << endl;
+    }
+    else 
+    {
+
+    }
+}
 int main()
 {
     
