@@ -16,6 +16,7 @@ public:
 
 class stact
 {
+private:
 
 };
 int main()
