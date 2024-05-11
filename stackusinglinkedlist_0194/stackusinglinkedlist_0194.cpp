@@ -14,6 +14,10 @@ public:
     }
 };
 
+class stact
+{
+
+};
 int main()
 {
     
