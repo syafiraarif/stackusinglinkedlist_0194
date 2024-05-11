@@ -17,7 +17,7 @@ public:
 class stact
 {
 private:
-
+    Node* top;
 };
 int main()
 {
