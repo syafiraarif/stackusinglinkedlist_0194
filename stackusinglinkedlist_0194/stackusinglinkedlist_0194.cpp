@@ -18,6 +18,7 @@ class stack
 {
 private:
     Node* top;
+
 public:
     stack() 
     {
@@ -37,8 +38,14 @@ int push(int value)
 
 void pop() 
 {
-
+    if (isEmpety()) 
+    {
+        cout << "Stack is empety." << endl;
+    }
+    cout << "Poped value: " << top->data << endl;
+    top = top->next;
 }
+
 int main()
 {
     
